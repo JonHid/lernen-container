@@ -1,5 +1,6 @@
 import { useRoutes } from 'react-router-dom';
 import Menu from './pages/Menu';
+import Quiz from 'lernen-quiz/Quiz'
 
 
 function AppRouter() {
@@ -8,6 +9,10 @@ function AppRouter() {
       {
         element: <Menu />,
         path: '/',
+      },
+      {
+        element: <Quiz />,
+        path: '/quiz',
       },
     ]
   );

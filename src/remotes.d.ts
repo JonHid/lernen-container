@@ -1,1 +1,1 @@
-declare module 'lernen-quiz/Question'
+declare module 'lernen-quiz/Quiz'
